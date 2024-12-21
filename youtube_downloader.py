@@ -24,7 +24,7 @@ def download_video(url):
 
     try:
         # Pastikan folder hasil unduhan ada
-        output_folder = '/yt_downloader_result'
+        output_folder = 'yt_downloader_result'  # Menggunakan folder relatif
         os.makedirs(output_folder, exist_ok=True)
 
         start_time = time.time()  # Waktu mulai unduhan
